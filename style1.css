@@ -1,0 +1,42 @@
+.bg-image{
+    background-image: url('pexels-annam-w-1047442.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px; 
+}
+.headerset{
+    position: relative;
+    top: 40%;
+    color: white;
+    font-size: 105px;
+}
+
+.nav-custom{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    font-size: 30px;
+}
+.nav-custom:hover{
+    text-decoration: none;
+    color: rgb(29, 28, 26) !important;
+}
+.link-item{
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    margin-left: 5px;
+    transition: 0.6s;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+.link-item:hover{
+    transform: translateY(-20px);
+    background-color: blue;
+}
+button{
+    padding: 0px 15px 0px 15px !important;
+    /* border-radius: 20% !important; */
+    font-size: 30px !important;
+}
